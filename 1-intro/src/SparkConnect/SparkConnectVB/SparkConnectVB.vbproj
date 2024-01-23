@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>SparkConnectVB</RootNamespace>
+        <TargetFramework>net7.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Grpc.Net.Client" Version="2.60.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SparkConnect.Dotnet.GrpcClient\Spark.Connect.Dotnet.GrpcClient.csproj" />
+    </ItemGroup>
+
+</Project>
