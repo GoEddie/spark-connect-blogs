@@ -64,7 +64,7 @@ public class ArtifactExamples
 
         var response = client.ArtifactStatus(request);
         foreach (var status in response.Statuses)
-        {         //The key exists and is correct but the status is missing in 3.5.0                                                  
+        {                        
             Console.WriteLine($"Artifact: '{status.Key}' status: '{status.Value}' ");    
         }
     }
