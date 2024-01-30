@@ -15,3 +15,11 @@ Post: https://the.agilesql.club/2024/01/using-spark-connect-from-csharp-on-datab
 ## Exploring the gRPC API - 3
 
 Post: https://the.agilesql.club/2024/01/exploring-the-spark-connect-grpc-api/
+
+## Exploring the gRPC API - 4
+
+Post: https://the.agilesql.club/2024/02/exploring-the-spark-connect-grpc-api-more/
+
+##  Moving towards a DataFrame API
+
+Post: https://the.agilesql.club/2024/02/moving-towards-the-dataframe-api-using-the-spark-connect-grpc-api-in-.net/
