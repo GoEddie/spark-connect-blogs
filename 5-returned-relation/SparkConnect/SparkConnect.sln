@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkConnect", "SparkConnect.csproj", "{98BA1C69-977C-49AB-AC96-6C6A1CCBF26B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.Connect.Dotnet.GrpcClient", "..\..\shared\SparkConnect.Dotnet.GrpcClient\Spark.Connect.Dotnet.GrpcClient.csproj", "{1F72A8FA-1476-4C8A-A932-3E423D5112EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98BA1C69-977C-49AB-AC96-6C6A1CCBF26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BA1C69-977C-49AB-AC96-6C6A1CCBF26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BA1C69-977C-49AB-AC96-6C6A1CCBF26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BA1C69-977C-49AB-AC96-6C6A1CCBF26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F72A8FA-1476-4C8A-A932-3E423D5112EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F72A8FA-1476-4C8A-A932-3E423D5112EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F72A8FA-1476-4C8A-A932-3E423D5112EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F72A8FA-1476-4C8A-A932-3E423D5112EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
