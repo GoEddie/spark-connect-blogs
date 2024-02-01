@@ -23,3 +23,7 @@ Post: https://the.agilesql.club/2024/02/exploring-the-spark-connect-grpc-api-mor
 ##  Moving towards a DataFrame API
 
 Post: https://the.agilesql.club/2024/02/moving-towards-the-dataframe-api-using-the-spark-connect-grpc-api-in-.net/
+
+## Moving towards a DataFrame API - 2 Spark.Sql.Functions
+
+Post: https://the.agilesql.club/2024/02/moving-towards-a-dataframe-api-2-spark.sql.functions/
