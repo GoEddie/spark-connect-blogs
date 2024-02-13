@@ -28,6 +28,7 @@ class DataFrame{
 }
 
 class DataFrameWriter{
+
     
     public function __construct(private Spark\Connect\Relation $relation, private SparkSession $session){
     }
