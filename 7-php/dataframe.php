@@ -4,12 +4,9 @@ require dirname(__FILE__).'/vendor/autoload.php';
 
 
 class DataFrame{
-    private $session;
-    private $relation;
-
-    public function __construct(Spark\Connect\Relation $relation, SparkSession $session){
-        $this->session = $session;
-        $this->relation = $relation;
+    
+    public function __construct(private Spark\Connect\Relation $relation, private SparkSession $session){
+       
     }
 
     public function show(int $rows){
@@ -31,12 +28,9 @@ class DataFrame{
 }
 
 class DataFrameWriter{
-    private $session;
-    private $relation;
 
-    public function __construct(Spark\Connect\Relation $relation, SparkSession $session){
-        $this->session = $session;
-        $this->relation = $relation;
+    
+    public function __construct(private Spark\Connect\Relation $relation, private SparkSession $session){
     }
 
     public function parquet($path){
